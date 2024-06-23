@@ -11,9 +11,6 @@
     "@tensorflow/tfjs": "^3.11.0",
     "@tensorflow/tfjs-converter": "^3.11.0",
     "@tensorflow/tfjs-core": "^3.11.0",
-    "@testing-library/jest-dom": "^5.15.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "cors": "^2.8.5",
     "fingerpose": "^0.1.0",
     "react": "^18.2.0",
@@ -23,7 +20,6 @@
     "react-webcam": "^6.0.0"
   },
   "devDependencies": {
-    "@testing-library/react-hooks": "^7.0.2",
     "canvas": "^2.10.2",
     "tailwind-styled-components": "^2.2.0",
     "tailwindcss": "^3.2.7"
@@ -33,16 +29,13 @@
     "startLegacy": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "react-scripts test",
-    "coverage": "react-scripts test --collect-coverage --watchAll=false",
     "lint:js": "eslint .",
     "prettier:check": "prettier --check '**/*{.css,.html,.js}'",
     "lint:css": "stylelint **/*.css"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {

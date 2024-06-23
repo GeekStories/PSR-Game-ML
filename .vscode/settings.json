@@ -1,3 +1,7 @@
 {
-  "liveServer.settings.root": "/Submission"
+  "liveServer.settings.root": "/Submission",
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "search.useIgnoreFiles": false
 }
