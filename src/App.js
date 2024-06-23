@@ -136,7 +136,7 @@ function App() {
           />
         </CameraOptionWrapper>
         <ResetScore onClick={() => window.location.reload(true)}>
-          Reset Score
+          Reset
         </ResetScore>
       </Settings>
 
