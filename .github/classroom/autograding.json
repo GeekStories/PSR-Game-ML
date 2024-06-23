@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "run the tests",
+      "setup": "npm install",
+      "run": "CI=true npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
