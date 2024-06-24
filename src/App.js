@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react"
+
 import useCountDown from "react-countdown-hook";
 import tw from "tailwind-styled-components";
 import useGesture from "hooks/useGesture";
@@ -164,6 +166,7 @@ function App() {
       </ExtraInfo>
       <GameResult result={previousWinner} />
       <History history={gameHistory} />
+      <Analytics />
     </Main>
   );
 }
